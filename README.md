@@ -227,6 +227,8 @@ You can start out by looking at `HomePage.json`.
 The test data file goes in the `src/test/resources/TestData` directory 
 Create a separate excel sheet for scenarios that require test data. The sheet name must be `scenarioUniqueID`.
 
+![image](https://user-images.githubusercontent.com/12494447/167130325-f63a8a7f-94a5-4d8b-8a34-413769c90384.png)
+
 ### Set test execution parameters
 
 - Framework level parameters are initialized in `autognizant.config` file in the `src/test/resources/config` directory
