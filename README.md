@@ -1,5 +1,6 @@
-# ![favicon-32x32](https://user-images.githubusercontent.com/12494447/167016738-cdd94473-0384-45e5-a1db-4879e6c915f9.png) Autognizant Example Project
-Simplify web automation testing !
+# ![image](https://user-images.githubusercontent.com/12494447/167223520-287fce73-bcfe-4069-b553-7b672140a23c.png)
+
+# Simplify web automation testing !
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
