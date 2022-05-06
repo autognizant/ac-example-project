@@ -1,0 +1,11 @@
+[
+	{
+		"logicalName": "Search Result Text",
+		"elementType": "Label",
+		"frameName": "Main",
+		"English": {
+			"locatorType": "xpath",
+			"locatorValue": "//div[contains(@class,'g')]//h3"
+		}
+	}
+]

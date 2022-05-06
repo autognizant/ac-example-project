@@ -1,0 +1,29 @@
+[
+	{
+		"logicalName": "Google Image",
+		"elementType": "Image",
+		"frameName": "Main",
+		"English": {
+			"locatorType": "xpath",
+			"locatorValue": "//img[@alt='Google']"
+		}
+	},
+	{
+		"logicalName": "Google Search Button",
+		"elementType": "Button",
+		"frameName": "Main",
+		"English": {
+			"locatorType": "name",
+			"locatorValue": "btnK"
+		}
+	},
+	{
+		"logicalName": "Google Search TextBox",
+		"elementType": "TextBox",
+		"frameName": "Main",
+		"English": {
+			"locatorType": "name",
+			"locatorValue": "q"
+		}
+	}
+]
