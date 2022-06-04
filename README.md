@@ -202,8 +202,8 @@ You can start out by looking at `HomePage.json`.
 ```
 [
 	{
-		"logicalName": "Google Image",
-		"elementType": "Image",
+		"webElementName": "Google Image",
+		"webElementType": "Image",
 		"frameName": "Main",
 		"English": {
 			"locatorType": "xpath",
@@ -211,8 +211,8 @@ You can start out by looking at `HomePage.json`.
 		}
 	},
 	{
-		"logicalName": "Google Search Button",
-		"elementType": "Button",
+		"webElementName": "Google Search Button",
+		"webElementType": "Button",
 		"frameName": "Main",
 		"English": {
 			"locatorType": "name",

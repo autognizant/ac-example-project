@@ -1,7 +1,9 @@
 package com.autognizant.example.steps;
 
+import java.io.IOException;
 import java.util.Map;
 
+import com.autognizant.core.config.AutognizantConfig;
 import com.autognizant.core.cucumber.AutomationHooks;
 import com.autognizant.core.cucumber.TestContext;
 import com.autognizant.core.util.Constants;
@@ -23,13 +25,13 @@ public class ProjectAutomationHooks extends AutomationHooks{
 	}
 
 	@Before
-	public void beforeScenario(Scenario scenario) throws Exception {
+	public void beforeScenario(Scenario scenario) {
 		super.beforeScenario(scenario);
 		//Fetch Test Data
 		try {
-			excelUtils.setExcelFile(Constants.RESOURCES_PATH+"/TestData/TestData.xlsx", scenarioUniqueID);
+			excelUtils.setExcelFile(Constants.RESOURCES_PATH+"/TestData/TestData.xlsx", AutognizantConfig.getScenarioUniqueID());
 			Map<String, Map<String, String>> data = excelUtils.getExcelDataIntoHashMap();
-			testContext.scenarioContext.setContext("TestData", data);
+			testContext.setContext("TestData", data);
 		}catch (Exception e) {
 			Log.info("TestData is not available for this scenario !");
 		}
@@ -38,7 +40,7 @@ public class ProjectAutomationHooks extends AutomationHooks{
 	}
 
 	@After()
-	public void afterScenario(Scenario scenario) throws Exception {
+	public void afterScenario(Scenario scenario) throws IOException{
 		super.afterScenario(scenario);
 		//close database connection
 		//DatabaseConnection.getInstance().closeConnection();

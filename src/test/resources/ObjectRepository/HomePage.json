@@ -1,7 +1,7 @@
 [
 	{
-		"logicalName": "Google Image",
-		"elementType": "Image",
+		"webElementName": "Google Image",
+		"webElementType": "Image",
 		"frameName": "Main",
 		"English": {
 			"locatorType": "xpath",
@@ -9,8 +9,8 @@
 		}
 	},
 	{
-		"logicalName": "Google Search Button",
-		"elementType": "Button",
+		"webElementName": "Google Search Button",
+		"webElementType": "Button",
 		"frameName": "Main",
 		"English": {
 			"locatorType": "name",
@@ -18,8 +18,8 @@
 		}
 	},
 	{
-		"logicalName": "Google Search TextBox",
-		"elementType": "TextBox",
+		"webElementName": "Google Search TextBox",
+		"webElementType": "TextBox",
 		"frameName": "Main",
 		"English": {
 			"locatorType": "name",

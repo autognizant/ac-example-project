@@ -24,7 +24,7 @@ public class DataDrivenSteps {
 	@When("I search with keyword type {string}")
 	public void i_search_with_keyword_type(String keywordType) throws Exception {
 		@SuppressWarnings("unchecked")
-		Map<String, String> data = ((Map<String, Map<String, String>>) testContext.getScenarioContext().getContext("TestData")).get(keywordType);
+		Map<String, String> data = ((Map<String, Map<String, String>>) testContext.getContext("TestData")).get(keywordType);
 		
 		homePage.searchKeyword(data.get("Keyword"));
 	}
@@ -32,7 +32,7 @@ public class DataDrivenSteps {
 	@Then("I should get search results for {string}")
 	public void i_should_get_search_results_for(String keywordType) throws Exception {
 		@SuppressWarnings("unchecked")
-		Map<String, String> data = ((Map<String, Map<String, String>>) testContext.getScenarioContext().getContext("TestData")).get(keywordType);
+		Map<String, String> data = ((Map<String, Map<String, String>>) testContext.getContext("TestData")).get(keywordType);
 		
 		String expectedResult = data.get("SearchResult");
 		searchResultPage.verifySearchResult(expectedResult );

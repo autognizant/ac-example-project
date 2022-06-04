@@ -1,7 +1,7 @@
 [
 	{
-		"logicalName": "Search Result Text",
-		"elementType": "Label",
+		"webElementName": "Search Result Text",
+		"webElementType": "Label",
 		"frameName": "Main",
 		"English": {
 			"locatorType": "xpath",

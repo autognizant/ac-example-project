@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/resources/features",
 		glue = {"com.autognizant.example.steps"},
-		tags = "@ACAUTO-Scenario1",
+//		tags = "@ACAUTO-Scenario3",
+		tags = "@search",
 		plugin = {"pretty", "html:target/cucumber/cucumber.html","json:target/cucumber/cucumber.json"})
 public class RunCucumberTest extends AbstractTestNGCucumberTests {
 
