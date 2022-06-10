@@ -32,8 +32,8 @@
 Autognizant Example Project demonstrates how to write automation test script to test Web application using AC Framework. It enables you to write and execute automated acceptance/functional tests. It is cross-platform, open source and free. Automate your test cases with minimal coding.
 
 # Pre-requisites
-- <a href="https://java.com/en/download/manual.jsp" target="_blank">Java >16</a>
-- <a href="https://maven.apache.org/download.cgi" target="_blank">Maven > 3.8.1</a>
+- <a href="https://java.com/en/download/manual.jsp" target="_blank">Java >= 16</a>
+- <a href="https://maven.apache.org/download.cgi" target="_blank">Maven >= 3.8.1</a>
 - <a href="https:https://eclipse.org/downloads/" target="_blank">Eclipse</a>
 - Eclipse Plugins
   	- <a href="http://download.eclipse.org/technology/m2e/releases/1.4" target="_blank">Maven</a> 
