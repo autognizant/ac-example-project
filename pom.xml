@@ -8,7 +8,16 @@
 	<artifactId>ac-example-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	<name>Autognizant Example Project</name>
+	<description>This is Autognizant Example Project</description>
+	<url>https://github.com/autognizant/ac-example-project.git</url>
+	<inceptionYear>2022</inceptionYear>
 
+	<organization>
+		<name>Autognizant</name>
+		<url>http://www.autognizant.com</url>
+	</organization>
+	
 	<properties>
 		<cucumber.version>7.3.2</cucumber.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
